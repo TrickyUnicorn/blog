@@ -1,0 +1,19 @@
+Stwórzmy nowe œrodowisko wirtualne o nazwie 'myvenv':
+$ python -m venv myvenv
+
+Uruchom wirtualne œrodowisko za pomoc¹ polecenia:
+$ myvenv\Scripts\activate
+
+Stwórz pilik teksyowy  'djangogirls/requirements.txt' zawieraj¹cy:
+Django~=2.0.6
+
+Zainstaluj Django
+$ C:\Users\Name\djangogirls> python -m pip install -r requirements.txt
+
+Pusty projekt dla Windows wpisz nastêpuj¹c¹ komendê. Nie zapomnij dodaæ kropki na koñcu
+$ (myvenv) C:\Users\Name\djangogirls> django-admin.exe startproject mysite .
+
+Aby utworzyæ bazê danych dla naszego bloga, wykonajmy nastêpuj¹ce polecenie w konsoli: $ python manage.py migrate
+
+W konsoli mo¿emy uruchomiæ serwer za pomoc¹ polecenia 
+$ python manage.py runserver
